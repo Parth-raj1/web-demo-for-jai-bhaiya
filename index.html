@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentor Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #f5f5f5 50%, #e0e0e0 50%);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 10vh 10vw;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      color: #666;
+    }
+
+    section {
+      padding: 6vh 10vw;
+    }
+
+    .bio {
+      max-width: 700px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+
+    .card {
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3vh 0;
+      background-color: #f2f2f2;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Dr. [Mentor's Name]</h1>
+    <p>Guiding Minds. Building Futures.</p>
+  </header>
+
+  <section>
+    <div class="bio">
+      <h2>About</h2>
+      <p>
+        An educator and mentor with a passion for helping students discover their purpose through clarity, depth, and innovation. This portfolio is a quiet space — a reflection of their calm vision and powerful impact.
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Courses</h3>
+        <p>Ethical AI, Research Methods, and Problem-Solving Labs guided with patience and precision.</p>
+      </div>
+      <div class="card">
+        <h3>Mentorship</h3>
+        <p>1-on-1 mentoring for selected students with a strong drive and a sincere approach.</p>
+      </div>
+      <div class="card">
+        <h3>Publications</h3>
+        <p>Research across education, emotional design, and future tech philosophy.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Dr. [Mentor's Name]. All rights reserved.
+  </footer>
+
+</body>
+</html>
